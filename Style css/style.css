@@ -1,0 +1,163 @@
+#head{
+    background-color: rgb(189, 219, 252);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.myname{
+    cursor: pointer;
+    color: rgb(130, 130, 255);
+    font-size: 45px;
+}
+#dboca{
+    color: rgb(81, 81, 249);
+}
+#edu{
+    border: none;
+    border-radius: 10px;
+    transition: transform .3s;
+}
+#edu:hover{
+    transform: scale(1.1);
+}
+#front-end{
+    max-width: 100%;
+    border-radius: 5px;
+    padding: 35px;
+}
+#html{
+    cursor: pointer;
+    margin-bottom: 12px;
+    padding: 0 40px;
+    border-radius: 10px;
+    background-color: rgb(148, 175, 189);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: transform .3s;
+}
+#html:hover{
+    transform:scale(1.1);
+}
+#css{
+    cursor: pointer;
+    margin: 12px 0;
+    padding: 0 40px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: transform .3s;
+}
+#css:hover{
+    transform: scale(1.1);
+}
+#javascript{
+    cursor: pointer;
+    margin: 12px 0;
+    padding: 0 40px;
+    border-radius: 10px;
+    background-color: rgb(148, 175, 189);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: transform .3s;
+}
+#javascript:hover{
+    transform: scale(1.1);
+}
+#backend{
+    max-width: 100%;
+    border-radius: 5px;
+    padding: 35px;
+}
+#nodejs{
+    cursor: pointer;
+    padding: 10px;
+    margin: 12px 0;
+    border-radius: 10px;
+    background-color: rgb(116, 151, 136);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: transform .3s;
+}
+#nodejs:hover{
+    transform: scale(1.1);
+}
+#express{
+    cursor: pointer;
+    margin: 12px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(153, 189, 200);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: transform .3s;
+}
+#express:hover{
+    transform: scale(1.1);
+}
+#mongodb{
+    cursor: pointer;
+    margin: 12px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(116, 151, 136);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: transform .3s;
+}
+#mongodb:hover{
+    transform: scale(1.1);
+}
+#experiance{
+    margin: 20px 0;
+}
+#services ul li{
+    list-style-type: none;
+}
+#services li{
+    background-color: rgb(147, 202, 250);
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: transform 2.s;
+}
+#services li:hover{
+    color: white;
+    background-color: rgb(166, 183, 166);
+   
+}
+
+.form-control{
+    outline: none;
+    border: 1px solid rgb(143, 143, 252);
+}
+#details{
+    padding-top: 2rem;
+    padding-left: 4.5rem;
+}
+#resume{
+    padding-left: 2.3rem;
+}
+#staticBackdrop{
+    top: 50px;
+    height: 150px;
+
+}
+#shares{
+    padding: 5px;
+    transition: transform .2s;
+    width: 40px;
+    height: 35px;
+
+}
+#shares:hover{
+    transform: scale(1.2);
+}
+
+
+.success{
+    color: rgb(42, 183, 42);
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+/*<i class="fa-solid fa-graduation-cap display-2 text-secondary" id="bcom"></i>
+<i class="fa-solid fa-graduation-cap display-2 text-success" id="mcom"></i>
+<i class="fa-solid fa-graduation-cap display-2 " id="dboca"></i>
